@@ -17,5 +17,4 @@
 *.RTF	 diff=astextplain
 
 # Custom for Java
-$ cat .gitattributes
-*.rb linguist-language=Java
+*.java linguist-language=Java
