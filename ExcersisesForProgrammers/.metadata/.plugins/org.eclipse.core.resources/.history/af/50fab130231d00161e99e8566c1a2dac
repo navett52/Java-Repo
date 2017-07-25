@@ -1,0 +1,51 @@
+package pizzaParty;
+
+import java.util.Scanner;
+
+public class SliceCalculator {
+	
+	public void calculate() {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		int numOfPeople = 0;
+		
+		int numOfPizzas = 0;
+		
+		int slicesPerPizza = 0;
+		
+		int totalSlices = 0;
+		
+		int consumedSlices = 0;
+		
+		int leftOverSlices = 0;
+		
+		System.out.println("How many people do you have?");
+		
+		numOfPeople = scanner.nextInt();
+		
+		System.out.println("How many pizzas do you have?");
+		
+		numOfPizzas = scanner.nextInt();
+		
+		System.out.println("How many slices per pizza will you have?");
+		
+		slicesPerPizza = scanner.nextInt();
+		
+		scanner.close();
+		
+		totalSlices = numOfPizzas * slicesPerPizza;
+		
+		consumedSlices = totalSlices / numOfPeople;
+		
+		leftOverSlices = totalSlices % numOfPeople;
+		
+		System.out.println(numOfPeople + " people with " + numOfPizzas + " pizzas with " + slicesPerPizza + " per pizza.");
+		
+		System.out.println("Each person gets " + consumedSlices + " slices of pizza.");
+		
+		System.out.println("There are " + leftOverSlices + " left over slices.");
+
+	}
+
+}

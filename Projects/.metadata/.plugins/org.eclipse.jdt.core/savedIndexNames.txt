@@ -1,0 +1,20 @@
+INDEX VERSION 1.127+F:\School\Fall Semester 2015\Programming 1\Projects\.metadata\.plugins\org.eclipse.jdt.core
+1443235220.index
+2793312736.index
+996659626.index
+1344543767.index
+1215361228.index
+2775670064.index
+1841998028.index
+708171384.index
+590698544.index
+332781264.index
+3840232041.index
+553727234.index
+1787368969.index
+3473888302.index
+929853800.index
+3663699770.index
+3079687615.index
+3514409334.index
+2771078745.index

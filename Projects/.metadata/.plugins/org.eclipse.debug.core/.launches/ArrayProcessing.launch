@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/tellepet_assignment09/src/edu/uc/IT10190/Week10/InClassTest/ArrayProcessing.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="edu.uc.IT10190.Week10.InClassTest.ArrayProcessing"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="tellepet_assignment09"/>
+</launchConfiguration>

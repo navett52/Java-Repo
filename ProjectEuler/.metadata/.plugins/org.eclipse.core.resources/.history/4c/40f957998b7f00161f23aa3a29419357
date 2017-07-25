@@ -1,0 +1,23 @@
+package largestPrimeFactor;
+
+import java.math.BigInteger;
+
+public class Main {
+
+	public static void main(String[] args) {
+		LargestPrimeFactor x = new LargestPrimeFactor();
+		/*BigInteger test = new BigInteger("13195");
+		BigInteger answer = x.largestPrimeFactor(test);
+		System.out.println("The largest prime factor of " + test + " is " + answer);*/
+		
+		//BigInteger test1 = new BigInteger("600851475143");
+		/*BigInteger answer1 = x.largestPrimeFactor(test1);
+		System.out.println("The largest prime factor of " + test1 + " is " + answer1);*/
+		
+		BigInteger test1 = new BigInteger("3");
+		
+		System.out.println(x.checkForBigIntPrimeOptomized(test1));
+		
+	}
+
+}
