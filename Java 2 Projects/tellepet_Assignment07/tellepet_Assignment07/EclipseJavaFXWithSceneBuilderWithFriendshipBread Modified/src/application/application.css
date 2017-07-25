@@ -1,0 +1,11 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/* Label Style from https://dzone.com/articles/styling-javafx-control-css */
+
+.label {    
+     -fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5);     
+}
+
+.button {
+     -fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5);     
+}
